@@ -1,0 +1,47 @@
+*{
+    background-color: rgb(157, 247, 247);
+}
+
+h1{
+    background-color: rgb(196, 195, 195);
+    font-size: 4cm;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    margin-left: 2.5cm;
+    font-style:italic ;
+}
+div:nth-child(1){
+    background-color: aliceblue;
+}
+div:nth-child(1) h2,h3,p{
+
+    background-color: aliceblue;
+}
+div:nth-child(2){
+    background-color: rgb(248, 171, 171);
+}
+div:nth-child(2) *{
+    background-color: rgb(248, 171, 171);
+}
+h4{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;  
+   background:rgb(155, 213, 241);
+}
+.negrita{
+    font-weight: bold;
+}
+.resaltado{
+    color: yellow;
+    background-color: black;
+}
